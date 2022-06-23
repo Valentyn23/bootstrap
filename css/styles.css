@@ -20,7 +20,20 @@
     color: floralwhite;
 }
 .address{
-    font-size: 80%;
+    font-size: 70%;
     margin:0px;
     color: black;
+}
+.text1{
+    margin: 0px auto;
+    padding: 50px 30px 50px 30px;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+.text2{
+    margin: 0px auto;
+    padding: 30px 70px 70px 30px;
+}
+.about{
+    padding: 0px 30px 0px 30px;
 }
