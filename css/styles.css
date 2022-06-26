@@ -44,3 +44,27 @@ body{
 .navbar-dark{
     background-color: #512DAB;
 }
+.home_pic{
+    margin-top: -5%;
+    padding: 1px 1px 1px 1px;
+    width: 25px;
+    height: 25px;
+}
+.info_pic{
+    margin-top: -5%;
+    padding: 1px 1px 1px 1px;
+    width: 25px;
+    height: 25px;
+}
+.menu_pic{
+    margin-top: -5%;
+    padding: 1px 1px 1px 1px;
+    width: 25px;
+    height: 25px;
+}
+.contact_pic{
+    margin-top: -5%;
+    padding: 1px 1px 1px 1px;
+    width: 25px;
+    height: 25px;
+}
