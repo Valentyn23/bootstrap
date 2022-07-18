@@ -78,15 +78,78 @@
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
-                <div class="col-12 col-sm-6">
+                <div class="col-12 col-sm-8">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
                 <div class="col-12 col-sm align-self-center">
                     <img src = "img/logo.png" class="img-fluid">
-                    <a type="submit" href="#reservetable" data-toggle="tooltip" data-html="true" title="Or Call us at +852 12345678"
-                        data-placement="bottom" class="btn btn-warning align-self-center m-3 btn-lg col-sm-6">Reserve Table</a>
-                    
+                    <a class="btn btn-warning btn-lg" data-toggle="modal" data-target="#ReserveModal" role="button">Reserve Table</a>    
+            </div>
+            <div id="ReserveModal" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-md" role="content">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Reserve Title</h5>
+                            <button type="button" class="close" data-dismiss="modal">
+                                &times;
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <dl class="row">
+                            <dt class="col-12 col-md-3">Number of Guests</dt>
+                            <dd class="col-9">
+                                <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">1</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">2</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                <label class="form-check-label" for="inlineRadio3">3</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                <label class="form-check-label" for="inlineRadio4">4</label>
+                              </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+                                    <label class="form-check-label" for="inlineRadio5">5</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6">
+                                    <label class="form-check-label" for="inlineRadio6">6</label>
+                                </div>
+                            </dd>
+                        </dl>
+                            <dl class="row">
+                                <dt class="col-12 col-md-2">Section</dt>
+                                <dd class="col-6">
+                            <button type="button" class="btn btn-sm btn-success" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                Non-Smoking
+                              </button>
+                              <button type="button" class="btn btn-sm btn-danger" data-toggle="button" aria-pressed="false" autocomplete="off">
+                                Smoking
+                              </button>
+                            </dd>   
+                            </dl>
+                            <dl class="row">
+                                <dt class="col-12 col-md-3">Date and Time</dt>
+                                <dd class="col-4">
+                                    <input type = "date" class="form-control" placeholder="Date">
+                                    <input type = "time" class= "form-control" placeholder="Time">
+                                </dd>
+                            </dl>                 
+                        </div>
+                        </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
             
@@ -198,7 +261,6 @@
             <div class="col-12 col-md-7 col-sm-7">
             <div class="card">
                 <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
-                <a name="reservetable"></a>
                 <div class="card-body">
                     <dl class="row">
                         <dt class="col-12 col-md-2">Number of Guests</dt>

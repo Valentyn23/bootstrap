@@ -75,3 +75,9 @@ body{
     left: 0;
     min-height: 200px;
 }
+.modal-header{
+    background: rgb(98, 0, 255);
+}
+.modal-body{
+    background: #a489e2;
+}
